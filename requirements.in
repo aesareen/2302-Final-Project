@@ -1,6 +1,8 @@
 pandas
 great-tables
+ipykernel
 polars
+pyarrow
 numpy
 matplotlib
 seaborn
