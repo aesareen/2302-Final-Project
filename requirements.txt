@@ -4,6 +4,10 @@
 #
 #    pip-compile requirements.in
 #
+attrs==25.3.0
+    # via
+    #   jsonschema
+    #   referencing
 appnope==0.1.4
     # via ipykernel
 asttokens==3.0.0
@@ -26,6 +30,8 @@ executing==2.2.0
     # via stack-data
 faicons==0.2.2
     # via great-tables
+fastjsonschema==2.21.1
+    # via nbformat
 fonttools==4.57.0
     # via matplotlib
 great-tables==0.17.0
@@ -48,6 +54,14 @@ jedi==0.19.2
     # via ipython
 joblib==1.4.2
     # via scikit-learn
+jsonschema==4.23.0
+    # via nbformat
+jsonschema-specifications==2025.4.1
+    # via jsonschema
+jupyter-core==5.7.2
+    # via nbformat
+kaleido==0.1.0.post1
+    # via -r requirements.in
 jupyter-client==8.6.3
     # via ipykernel
 jupyter-core==5.7.2
@@ -66,6 +80,8 @@ matplotlib-inline==0.1.7
     #   ipython
 narwhals==1.37.0
     # via plotly
+nbformat==5.10.4
+    # via -r requirements.in
 nest-asyncio==1.6.0
     # via ipykernel
 numpy==2.2.5
@@ -123,6 +139,16 @@ python-dateutil==2.9.0.post0
     #   pandas
 pytz==2025.2
     # via pandas
+pywin32==310
+    # via jupyter-core
+referencing==0.36.2
+    # via
+    #   jsonschema
+    #   jsonschema-specifications
+rpds-py==0.24.0
+    # via
+    #   jsonschema
+    #   referencing
 pyzmq==26.4.0
     # via
     #   ipykernel
@@ -139,6 +165,10 @@ stack-data==0.6.3
     # via ipython
 threadpoolctl==3.6.0
     # via scikit-learn
+traitlets==5.14.3
+    # via
+    #   jupyter-core
+    #   nbformat
 tornado==6.4.2
     # via
     #   ipykernel
@@ -155,6 +185,7 @@ typing-extensions==4.13.2
     # via
     #   great-tables
     #   htmltools
+    #   referencing
 tzdata==2025.2
     # via pandas
 wcwidth==0.2.13
