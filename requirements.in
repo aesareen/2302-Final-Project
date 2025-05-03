@@ -9,4 +9,5 @@ seaborn
 scikit-learn
 plotly
 nbformat
+nbdime
 kaleido==0.1.0.post1
